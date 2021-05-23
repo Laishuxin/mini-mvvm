@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mvvm</title>
+</head>
+
+<body>
+  <div id="app">
+    <input type="text" v-model="person.name">
+    <div>{{ person.name }}</div>
+    <div>{{ person.age }}</div>
+    <p>{{ person.name }}</p>
+
+    <p>{{ msg }}</p>
+
+    <p>---{{ msg }}+++</p>
+    <p>name: {{ person.name }}, age: {{ person.age}}</p>
+  </div>
+
+  <ul>
+    <li>1</li>
+    <li>2</li>
+  </ul>
+
+</body>
+
+</html>
